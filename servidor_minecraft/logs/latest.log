@@ -1,269 +1,327 @@
-[16:24:16] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4+7-1-24.04-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
-[16:24:16] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) for Minecraft 26.1.2
-[16:24:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:24:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
-[16:24:17] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - BedrockSkinRestorer (1.0.0)
-[16:24:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
- - EndBlocker (1.0.1), Geyser-Spigot (2.11.2-SNAPSHOT), GeyserUpdater (1.0.1), InstantRestock (2.6.4), InvisDeathMessage (0.1.0), LifeStealZ (2.21.1), SimpleVoice-Geyser (0.1.4), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), floodgate (2.2.5-SNAPSHOT (b140-8780fa4)), voicechat (2.6.21)
-[16:24:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:24:24] [ServerMain/INFO]: Loaded 1515 recipes
-[16:24:24] [ServerMain/INFO]: Loaded 1617 advancements
-[16:24:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[16:24:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 415.4ms
-[16:24:24] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[16:24:24] [Server thread/INFO]: Loading properties
-[16:24:24] [Server thread/INFO]: This server is running Paper version 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) (Implementing API version 26.1.2.build.60-stable)
-[16:24:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:24:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:24:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:24:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:24:25] [Server thread/INFO]: Default game type: SURVIVAL
-[16:24:25] [Server thread/INFO]: Generating keypair
-[16:24:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:24:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:24:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[16:24:26] [Server thread/INFO]: [GeyserUpdater] Loading server plugin GeyserUpdater v1.0.1
-[16:24:26] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[16:24:26] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[16:24:26] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:24:26] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:24:27] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
-[16:24:27] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[16:24:27] [Server thread/INFO]: [floodgate] Took 584ms to boot Floodgate
-[16:24:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[16:24:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.2-SNAPSHOT
-[16:24:28] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[16:24:28] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[16:24:28] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.21
-[16:24:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
-[16:24:28] [Server thread/INFO]: [SVG] Loading server plugin SimpleVoice-Geyser v0.1.4
-[16:24:28] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.6.4
-[16:24:28] [Server thread/INFO]: [LifeStealZ] Loading server plugin LifeStealZ v2.21.1
-[16:24:28] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ...
-[16:24:28] [Server thread/INFO]: [InvisDeathMessage] Loading server plugin InvisDeathMessage v0.1.0
-[16:24:28] [Server thread/INFO]: [BedrockSkinRestorer] Loading server plugin BedrockSkinRestorer v1.0.0
-[16:24:28] [Server thread/INFO]: [EndBlocker] Loading server plugin EndBlocker v1.0.1
-[16:24:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:24:28] [Server thread/INFO]: [GeyserUpdater] Enabling GeyserUpdater v1.0.1
-[16:24:28] [Server thread/INFO]: [GeyserUpdater] Detected platform runtime: Paper (version=26.1.2.build.60-stable)
-[16:24:28] [Server thread/INFO]: [GeyserUpdater] 起動時の自動更新チェックを開始します。
-[16:24:28] [Server thread/INFO]: [GeyserUpdater] 定期更新チェックをスケジュールしました（12時間ごと）。
-[16:24:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
-[16:24:28] [ForkJoinPool.commonPool-worker-1/WARN]: [SVG] No latest version found!
-[16:24:28] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
-[16:24:28] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[16:24:29] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:24:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:24:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:24:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:24:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:24:29] [Server thread/INFO]: Preparing level "world"
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[16:24:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[16:24:29] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[16:24:29] [Server thread/INFO]: Preparing spawn area: 100%
-[16:24:29] [Server thread/INFO]: Prepared spawn area in 1 ms
-[16:24:29] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[16:24:29] [Server thread/INFO]: Prepared spawn area in 0 ms
-[16:24:29] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[16:24:29] [Server thread/INFO]: Prepared spawn area in 0 ms
-[16:24:29] [Server thread/INFO]: Done preparing level "world" (0.481s)
-[16:24:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[16:24:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[16:24:29] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
-[16:24:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[16:24:30] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.2-SNAPSHOT
-[16:24:31] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.21
-[16:24:31] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.1.2.build.60-stable
-[16:24:31] [Server thread/INFO]: [voicechat] Compatibility version 20
-[16:24:31] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[16:24:31] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[16:24:31] [Server thread/INFO]: [SVG] Enabling SimpleVoice-Geyser v0.1.4
-[16:24:31] [Server thread/INFO]: [SVG] client.vctimeout is currently documented but inactive in this dev build.
-[16:24:31] [Server thread/WARN]: [SVG] Audio legacy fallback is enabled. This is recommended during svg-v2 transition only.
-[16:24:31] [Server thread/ERROR]: [SVG] [STDERR] SLF4J(W): No SLF4J providers were found.
-[16:24:31] [Server thread/WARN]: Nag author(s): '[TheodoreMeyer]' of 'SimpleVoice-Geyser v0.1.4' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[16:24:31] [Server thread/ERROR]: [SVG] [STDERR] SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-[16:24:31] [Server thread/ERROR]: [SVG] [STDERR] SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-[16:24:31] [Server thread/INFO]: [SVG] Idle timeout: 2.0 minutes.
-[16:24:31] [Server thread/INFO]: [SVG] Started on: HTTP/1.1 0.0.0.0:20060
-[16:24:31] [Server thread/INFO]: [SVG] Loaded Override web files from /workspaces/SMPPAPITAS/servidor_minecraft/plugins/SimpleVoice-Geyser/web
-[16:24:31] [Server thread/INFO]: [SVG] Jetty server started on port: 20060
-[16:24:31] [Server thread/INFO]: [SVG] Registered plugin with Simple Voice Chat.
-[16:24:31] [Server thread/INFO]: [SVG] Using Emote for SVG
-[16:24:31] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.6.4
-[16:24:31] [Server thread/INFO]: [InstantRestock] Enabled InstantRestock!
-[16:24:31] [Server thread/INFO]: [LifeStealZ] Enabling LifeStealZ v2.21.1
-[16:24:31] [Server thread/INFO]: [LifeStealZ] Geyser found, enabling Bedrock player support.
-[16:24:31] [Server thread/INFO]: [LifeStealZ] Using language file: plugins/LifeStealZ/lang/es-ES.yml
-[16:24:31] [Server thread/INFO]: [LifeStealZ] Using SQLite storage
-[16:24:32] [Server thread/INFO]: [com.zetaplugins.zetacore.libs.reflections.Reflections] Reflections took 94 ms to scan 1 urls, producing 39 keys and 134 values
-[16:24:32] [Server thread/INFO]: [LifeStealZ] Registered 5 commands
-[16:24:32] [Server thread/INFO]: [com.zetaplugins.zetacore.libs.reflections.Reflections] Reflections took 38 ms to scan 1 urls, producing 39 keys and 134 values
-[16:24:32] [Server thread/INFO]: [LifeStealZ] Registered 19 event listeners
-[16:24:32] [Server thread/INFO]: [LifeStealZ] LifeStealZ enabled!
-[16:24:32] [Server thread/INFO]: [InvisDeathMessage] Enabling InvisDeathMessage v0.1.0
-[16:24:32] [Server thread/INFO]: [BedrockSkinRestorer] Enabling BedrockSkinRestorer v1.0.0
-[16:24:32] [Server thread/INFO]: [BedrockSkinRestorer] Bedrock skins will be restored for Floodgate players on join.
-[16:24:32] [Server thread/INFO]: [EndBlocker] Enabling EndBlocker v1.0.1
-[16:24:32] [Server thread/INFO]: [EndBlocker] EndBlocker enabled. End blocked: true
-[16:24:32] [Server thread/INFO]: [spark] Starting background profiler...
-[16:24:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:24:33] [Server thread/INFO]: [Geyser-Spigot] 
-[16:24:33] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.2-b1233 (git-master-fac30e9)
-[16:24:33] [Server thread/INFO]: [Geyser-Spigot] 
-[16:24:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[16:24:34] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
-[16:24:34] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
-[16:24:34] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
-[16:24:36] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
-[16:24:37] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[16:24:37] [Server thread/INFO]: [Geyser-Spigot] Done (4.204s)! Run /geyser help for help!
-[16:24:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:24:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:24:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:24:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:24:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:24:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:24:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:24:37] [Server thread/INFO]: Running delayed init tasks
-[16:24:37] [Server thread/INFO]: Done (21.863s)! For help, type "help"
-[16:24:37] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:24:37] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] 更新を確認しています...
-[16:24:37] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] Starting update check for Paper (targets=[GEYSER, FLOODGATE])
-[16:24:37] [Server thread/INFO]: [voicechat] Loading plugins
-[16:24:37] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[16:24:37] [Server thread/INFO]: [voicechat] Initializing plugins
-[16:24:37] [Server thread/INFO]: [SVG] [VCBridge] VoiceChat API initialized
-[16:24:37] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[16:24:37] [Server thread/INFO]: [voicechat] Registering events for 'SimpleVoice-Geyser'
-[16:24:37] [Server thread/WARN]: [SVG] [VCBridge] Registering events...
-[16:24:37] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[16:24:37] [Server thread/INFO]: [SVG] [VCBridge] Voice chat server started: de.maxhenkel.voicechat.plugins.impl.VoicechatServerApiImpl@2d444ea
-[16:24:37] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 25565
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] Resolved latest geyser version 2.11.2 build #1233 for Paper using download key 'spigot'.
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] geyser is already up to date (matched upstream SHA-256). Skipping download.
-[16:24:38] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 release(s) and 14 build(s) behind!
-[16:24:38] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] Resolved latest floodgate version 2.2.5 build #140 for Paper using download key 'spigot'.
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] floodgate is already up to date (matched upstream SHA-256). Skipping download.
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] geyser は最新です。
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] floodgate は最新です。
-[16:24:38] [Craft Scheduler Thread - 3 - GeyserUpdater/INFO]: [GeyserUpdater] 更新チェックが完了しました。
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] 更新を確認しています...
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] Starting update check for Paper (targets=[GEYSER, FLOODGATE])
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] Resolved latest geyser version 2.11.2 build #1233 for Paper using download key 'spigot'.
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] geyser is already up to date (matched upstream SHA-256). Skipping download.
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] Resolved latest floodgate version 2.2.5 build #140 for Paper using download key 'spigot'.
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] floodgate is already up to date (matched upstream SHA-256). Skipping download.
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] geyser は最新です。
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] floodgate は最新です。
-[16:29:37] [Craft Scheduler Thread - 5 - GeyserUpdater/INFO]: [GeyserUpdater] 更新チェックが完了しました。
-[16:31:34] [User Authenticator #0/INFO]: UUID of player g4bz_pc is 86d364c0-b5a3-3d50-b9e2-2a749e1a6e60
-[16:31:34] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LifeStealZ]
-[16:31:37] [Server thread/INFO]: g4bz_pc joined the game
-[16:31:37] [Server thread/INFO]: g4bz_pc[/127.33.84.129:33157] logged in with entity id 1 at ([minecraft:overworld]2973.4444509424216, 70.0, -168.7601382256399)
-[16:31:38] [Server thread/INFO]: [voicechat] Received secret request of g4bz_pc (20)
-[16:31:38] [Server thread/INFO]: [voicechat] Sent secret to g4bz_pc
-[16:35:12] [Server thread/INFO]: g4bz_pc lost connection: Timed out
-[16:35:12] [Server thread/INFO]: [voicechat] Disconnecting client g4bz_pc
-[16:35:12] [Server thread/INFO]: g4bz_pc left the game
-[16:35:49] [User Authenticator #1/INFO]: UUID of player g4bz_pc is 86d364c0-b5a3-3d50-b9e2-2a749e1a6e60
-[16:35:50] [Server thread/INFO]: g4bz_pc joined the game
-[16:35:50] [Server thread/INFO]: g4bz_pc[/127.33.84.129:56915] logged in with entity id 1700 at ([minecraft:overworld]2982.5442478338364, 72.0, -87.29167287693987)
-[16:35:50] [Server thread/INFO]: [voicechat] Received secret request of g4bz_pc (20)
-[16:35:50] [Server thread/INFO]: [voicechat] Sent secret to g4bz_pc
-[16:37:49] [Server thread/INFO]: g4bz_pc lost connection: Timed out
-[16:37:49] [Server thread/INFO]: [voicechat] Disconnecting client g4bz_pc
-[16:37:50] [Server thread/INFO]: g4bz_pc left the game
-[16:38:28] [User Authenticator #2/INFO]: UUID of player g4bz_pc is 86d364c0-b5a3-3d50-b9e2-2a749e1a6e60
-[16:38:28] [Server thread/INFO]: g4bz_pc joined the game
-[16:38:28] [Server thread/INFO]: g4bz_pc[/127.33.84.129:47113] logged in with entity id 3210 at ([minecraft:overworld]2982.675412142585, 71.9375, -67.88307139659817)
-[16:38:29] [Server thread/INFO]: [voicechat] Received secret request of g4bz_pc (20)
-[16:38:29] [Server thread/INFO]: [voicechat] Sent secret to g4bz_pc
-[16:38:34] [Async Chat Thread - #0/INFO]: [Not Secure] <g4bz_pc> me saca
-[16:40:24] [User Authenticator #3/INFO]: UUID of player g4bz_pc is 86d364c0-b5a3-3d50-b9e2-2a749e1a6e60
-[16:40:24] [Server thread/INFO]: g4bz_pc lost connection: You logged in from another location
-[16:40:24] [Server thread/INFO]: [voicechat] Disconnecting client g4bz_pc
-[16:40:24] [Server thread/INFO]: g4bz_pc left the game
-[16:40:25] [Server thread/INFO]: g4bz_pc joined the game
-[16:40:25] [Server thread/INFO]: g4bz_pc[/127.33.84.129:34621] logged in with entity id 4624 at ([minecraft:overworld]2986.837981825001, 71.9375, -80.55877276109177)
-[16:40:25] [Server thread/INFO]: [voicechat] Received secret request of g4bz_pc (20)
-[16:40:25] [Server thread/INFO]: [voicechat] Sent secret to g4bz_pc
-[16:42:46] [Server thread/INFO]: g4bz_pc lost connection: Timed out
-[16:42:46] [Server thread/INFO]: [voicechat] Disconnecting client g4bz_pc
-[16:42:46] [Server thread/INFO]: g4bz_pc left the game
-[16:43:12] [User Authenticator #4/INFO]: UUID of player g4bz_pc is 86d364c0-b5a3-3d50-b9e2-2a749e1a6e60
-[16:43:13] [Server thread/INFO]: g4bz_pc joined the game
-[16:43:13] [Server thread/INFO]: g4bz_pc[/127.33.84.129:57103] logged in with entity id 5364 at ([minecraft:overworld]2972.6839654355676, 70.0, -166.48750001192093)
-[16:43:14] [Server thread/INFO]: [voicechat] Received secret request of g4bz_pc (20)
-[16:43:14] [Server thread/INFO]: [voicechat] Sent secret to g4bz_pc
-[16:46:40] [Server thread/INFO]: Villager Villager['Villager'/5432, uuid='ee5c65fe-3e46-4d89-a7d4-150789b2a518', l='ServerLevel[world]', x=2981.09, y=71.08, z=-78.77, cpos=[186, -5], tl=4105, v=true] died, message: 'Villager tried to swim in lava'
-[16:50:17] [Server thread/INFO]: Stopping the server
-[16:50:17] [Server thread/INFO]: Stopping server
-[16:50:17] [Server thread/INFO]: [EndBlocker] Disabling EndBlocker v1.0.1
-[16:50:17] [Server thread/INFO]: [BedrockSkinRestorer] Disabling BedrockSkinRestorer v1.0.0
-[16:50:17] [Server thread/INFO]: [InvisDeathMessage] Disabling InvisDeathMessage v0.1.0
-[16:50:17] [Server thread/INFO]: [LifeStealZ] Disabling LifeStealZ v2.21.1
-[16:50:17] [Server thread/INFO]: [LifeStealZ] Canceling all running tasks...
-[16:50:17] [Server thread/INFO]: [LifeStealZ] Shutting down metrics...
-[16:50:17] [Server thread/INFO]: [LifeStealZ] LifeStealZ disabled!
-[16:50:17] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.6.4
-[16:50:17] [Server thread/INFO]: [InstantRestock] Disabled InstantRestock!
-[16:50:17] [Server thread/INFO]: [SVG] Disabling SimpleVoice-Geyser v0.1.4
-[16:50:17] [Server thread/INFO]: [SVG] [ConnectionManager] Disconnected all clients
-[16:50:17] [Server thread/INFO]: [SVG] Jetty server stopped.
-[16:50:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
-[16:50:17] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.21
-[16:50:17] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.11.2-SNAPSHOT
-[16:50:17] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[16:50:17] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[16:50:17] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
-[16:50:17] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
-[16:50:17] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
-[16:50:17] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[16:50:17] [Server thread/INFO]: [GeyserUpdater] Disabling GeyserUpdater v1.0.1
-[16:50:17] [Server thread/INFO]: Saving players
-[16:50:17] [WebSocketConnectReadThread-112/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[16:50:17] [Server thread/INFO]: Saving worlds
-[16:50:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:50:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[16:50:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[16:50:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[16:50:22] [Server thread/INFO]: [ChunkHolderManager] Saved 1407 block chunks, 2076 entity chunks, 2 poi chunks in world 'minecraft:overworld' in 4.17s
-[16:50:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[16:50:22] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[16:50:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[16:50:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[16:50:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[16:50:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:50:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:50:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:50:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:50:23] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[16:50:23] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[16:50:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[16:50:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:00:07] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg xd
+[00:01:00] [Async Chat Thread - #166/INFO]: [Not Secure] <RipDieg> ontas xd
+[00:01:01] [Async Chat Thread - #166/INFO]: [Not Secure] <mishuuu_> q cueva es esta
+[00:01:25] [Async Chat Thread - #166/INFO]: [Not Secure] <RipDieg> encontre diamante
+[00:01:38] [Async Chat Thread - #166/INFO]: [Not Secure] <mishuuu_> voyt
+[00:01:58] [Async Chat Thread - #166/INFO]: [Not Secure] <RipDieg> solo es 1 xd
+[00:02:41] [Server thread/INFO]: Villager Villager['Fisherman'/369571, uuid='96af92f2-4c48-42d3-9bd5-ce2e2501d0fc', l='ServerLevel[world]', x=-4289.70, y=66.00, z=3502.10, cpos=[-269, 218], tl=21971, v=true] died, message: 'Fisherman was slain by Zombie'
+[00:03:53] [Server thread/INFO]: RipDieg issued server command: /msg Elowennofake encontre spawneer
+[00:03:53] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> hazte armadura
+[00:04:00] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg godd
+[00:04:02] [Async Chat Thread - #168/INFO]: [Not Secure] <mishuuu_> wtf
+[00:04:09] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg wguarda waypoint
+[00:04:33] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> el bro se tanqueo un mazazo
+[00:04:39] [Async Chat Thread - #169/INFO]: [Not Secure] <Elowennofake> xd
+[00:05:03] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> haras granja aca?
+[00:05:07] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> es buena idea
+[00:05:11] [Async Chat Thread - #169/INFO]: [Not Secure] <RipDieg> sis
+[00:05:16] [Async Chat Thread - #169/INFO]: [Not Secure] <RipDieg> o mejor no
+[00:05:25] [Async Chat Thread - #169/INFO]: [Not Secure] <RipDieg> guarde un tuto de una granja bn god
+[00:05:27] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> XD
+[00:05:42] [Async Chat Thread - #169/INFO]: [Not Secure] <RipDieg> igual no lo rompas
+[00:06:31] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> q mr hacen XD
+[00:06:42] [Async Chat Thread - #169/INFO]: [Not Secure] <RipDieg> trial cerca
+[00:06:46] [Async Chat Thread - #169/INFO]: [Not Secure] <mishuuu_> si ya se
+[00:08:10] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg cuidado
+[00:08:18] [Server thread/INFO]: RipDieg issued server command: /msg Elowennofake sis
+[00:08:28] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg pudo aber puesto una trampa
+[00:08:35] [Async Chat Thread - #171/INFO]: [Not Secure] <RipDieg> me kg
+[00:08:36] [Async Chat Thread - #171/INFO]: [Not Secure] <RipDieg> XD
+[00:08:43] [Async Chat Thread - #171/INFO]: [Not Secure] <mishuuu_> che
+[00:09:01] [Async Chat Thread - #171/INFO]: [Not Secure] <mishuuu_> toma para espada
+[00:09:30] [Server thread/INFO]: RipDieg issued server command: /msg Elowennofake conseguimos mazo con la ayuda de misha y ya nos ponemos las pilas
+[00:09:47] [Async Chat Thread - #170/INFO]: [Not Secure] <mishuuu_> O Q RIKO TENGO SAQUEO 3
+[00:09:48] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg man la unica forma de matarlo con una trampa
+[00:11:36] [Async Chat Thread - #172/INFO]: [Not Secure] <RipDieg> bro mi radar de tolvas esta a otro nivel
+[00:11:43] [Async Chat Thread - #172/INFO]: [Not Secure] <mishuuu_> con razon en su fortaleza tienen tantas de estas mrs
+[00:11:43] [Async Chat Thread - #172/INFO]: [Not Secure] <mishuuu_> XD
+[00:11:54] [Async Chat Thread - #173/INFO]: [Not Secure] <mishuuu_> BRO PORQ TIENEN TANTAS SLABS
+[00:11:56] [Async Chat Thread - #173/INFO]: [Not Secure] <mishuuu_> vengan
+[00:15:44] [Async Chat Thread - #174/INFO]: [Not Secure] <RipDieg> tengo 3 llaves
+[00:15:46] [Async Chat Thread - #174/INFO]: [Not Secure] <mishuuu_> pasa
+[00:15:59] [Async Chat Thread - #174/INFO]: [Not Secure] <mishuuu_> XD
+[00:16:04] [Async Chat Thread - #174/INFO]: [Not Secure] <mishuuu_> ono
+[00:16:07] [Async Chat Thread - #174/INFO]: [Not Secure] <mishuuu_> habitacion mrdosa
+[00:16:15] [Async Chat Thread - #174/INFO]: [Not Secure] <mishuuu_> no tengo bloques
+[00:16:46] [Async Chat Thread - #174/INFO]: [Not Secure] <mishuuu_> WTF
+[00:16:46] [Async Chat Thread - #175/INFO]: [Not Secure] <mishuuu_> XD
+[00:17:27] [Async Chat Thread - #175/INFO]: [Not Secure] <RipDieg> dales duro misha
+[00:17:38] [Async Chat Thread - #175/INFO]: [Not Secure] <RipDieg> oe mishu
+[00:17:40] [Async Chat Thread - #175/INFO]: [Not Secure] <mishuuu_> q
+[00:17:48] [Async Chat Thread - #175/INFO]: [Not Secure] <RipDieg> gabriel c compro una nueva cuenta o la recupero
+[00:17:52] [Async Chat Thread - #175/INFO]: [Not Secure] <mishuuu_> la recupero
+[00:17:54] [Async Chat Thread - #176/INFO]: [Not Secure] <mishuuu_> POCION
+[00:17:55] [Async Chat Thread - #176/INFO]: [Not Secure] <RipDieg> a ok
+[00:17:57] [Async Chat Thread - #176/INFO]: [Not Secure] <mishuuu_> hagamos toda la trial
+[00:18:00] [Async Chat Thread - #176/INFO]: [Not Secure] <mishuuu_> encerramos todo
+[00:18:02] [Async Chat Thread - #176/INFO]: [Not Secure] <mishuuu_> y la tomo
+[00:18:04] [Async Chat Thread - #176/INFO]: [Not Secure] <RipDieg> SISI
+[00:20:09] [Async Chat Thread - #177/INFO]: [Not Secure] <RipDieg> dios te metieron pechas por todos lados
+[00:20:34] [Async Chat Thread - #177/INFO]: [Not Secure] <mishuuu_> aca
+[00:21:22] [Async Chat Thread - #177/INFO]: [Not Secure] <mishuuu_> BROCHACHO
+[00:21:27] [Async Chat Thread - #177/INFO]: [Not Secure] <RipDieg> XD
+[00:21:47] [Async Chat Thread - #177/INFO]: [Not Secure] <RipDieg> ya te tomas la pocion?
+[00:21:51] [Async Chat Thread - #177/INFO]: [Not Secure] <mishuuu_> XDD
+[00:21:52] [Async Chat Thread - #177/INFO]: [Not Secure] <RipDieg> XD
+[00:22:01] [Async Chat Thread - #177/INFO]: [Not Secure] <mishuuu_> vamos a hacer toda la trial
+[00:22:03] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> y al tomo
+[00:22:55] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> BRO DEJEN DE MARCAR TERRITORIO XD
+[00:23:04] [Async Chat Thread - #179/INFO]: [Not Secure] <RipDieg> ?
+[00:23:07] [Async Chat Thread - #179/INFO]: [Not Secure] <Elowennofake> =
+[00:23:08] [Async Chat Thread - #179/INFO]: [Not Secure] <Elowennofake> ?
+[00:23:18] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> estan poniendo los ladrillos esos
+[00:23:25] [Async Chat Thread - #179/INFO]: [Not Secure] <Elowennofake> estan???
+[00:23:28] [Async Chat Thread - #179/INFO]: [Not Secure] <RipDieg> esq no tengo mas bloques xd
+[00:23:30] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> XD
+[00:23:58] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> ahi deberia estas
+[00:23:59] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> estar
+[00:24:32] [Server thread/INFO]: Elowennofake issued server command: /msg ayudame cuando vaya con los slimes a farmear
+[00:24:38] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg ayudame cuando vaya con los slimes a farmear
+[00:24:56] [Async Chat Thread - #178/INFO]: [Not Secure] <RipDieg> quedo un breeze haya xd
+[00:25:09] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> OMG
+[00:25:19] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> MANZANA DE NOTCH
+[00:25:21] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> SIRVE
+[00:25:26] [Async Chat Thread - #179/INFO]: [Not Secure] <mishuuu_> vengan
+[00:26:35] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> OSTRAS
+[00:26:39] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> graciass
+[00:26:46] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> tengo otras 3 llaves
+[00:26:52] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> pt q riko eh
+[00:27:20] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> aca hay otra habitacion random
+[00:27:21] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> lol
+[00:27:26] [Server thread/INFO]: Elowennofake has reached the goal [Postmortal]
+[00:27:27] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> a esa fui xd
+[00:27:29] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> XD
+[00:27:51] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> eloweno
+[00:27:56] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> toma
+[00:28:45] [Server thread/INFO]: RipDieg has reached the goal [Revaulting]
+[00:28:51] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> XD
+[00:28:54] [Server thread/INFO]: Elowennofake has reached the goal [Revaulting]
+[00:28:58] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> ostia
+[00:29:48] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> on ta la de esqueletos
+[00:29:52] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> sepa
+[00:29:53] [Async Chat Thread - #180/INFO]: [Not Secure] <mishuuu_> ah ya
+[00:30:09] [Async Chat Thread - #180/INFO]: [Not Secure] <RipDieg> aqui eloweno
+[00:31:21] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> volvi
+[00:31:29] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> ya no
+[00:31:30] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> XD
+[00:32:18] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> tomad
+[00:32:21] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> tengo 3
+[00:32:26] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> a
+[00:32:29] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> pocion
+[00:32:46] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> dieg
+[00:32:46] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> me agarraron mi manzana
+[00:32:47] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> xd
+[00:32:52] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> dame una a mi y otra a eloweno
+[00:33:07] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> hay tire 2
+[00:33:08] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> X
+[00:33:08] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> D
+[00:33:24] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> eloweno no agarraste esta llave
+[00:34:04] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> Q CALAMBROTE COÑOO
+[00:34:39] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> XD
+[00:34:47] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> ca mejor
+[00:35:12] [Async Chat Thread - #182/INFO]: [Not Secure] <mishuuu_> q fue
+[00:35:22] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> solo manzana dorada
+[00:35:52] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> yo active esta xd
+[00:36:01] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> me das los palitos?
+[00:36:06] [Async Chat Thread - #182/INFO]: [Not Secure] <RipDieg> de breeze
+[00:36:19] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg ya lo converti a cargas xd
+[00:36:24] [Server thread/INFO]: RipDieg issued server command: /msg Elowennofake XD
+[00:36:41] [Server thread/INFO]: RipDieg has made the advancement [Who Needs Rockets?]
+[00:37:45] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> vamoo
+[00:37:49] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> el sig pa mi
+[00:37:56] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> pal de fisura
+[00:38:03] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> sis xd
+[00:38:09] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> oe we
+[00:38:19] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> vamos a mi base?
+[00:38:19] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> a no nd
+[00:38:24] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> ps si quieres xd
+[00:38:26] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> tengo la granja de xp
+[00:38:29] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> y la mesa maxeada
+[00:38:32] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> ok
+[00:38:41] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> ocupamos encantamientos
+[00:38:46] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> oe pero ayudame a diamante xd
+[00:38:49] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> tengo solo 8
+[00:38:51] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> XD
+[00:39:48] [Async Chat Thread - #184/INFO]: [Not Secure] <Elowennofake> no tengo pico
+[00:39:50] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> XDD
+[00:39:55] [Async Chat Thread - #184/INFO]: [Not Secure] <Elowennofake> xddd
+[00:40:00] [Async Chat Thread - #184/INFO]: [Not Secure] <Elowennofake> tienes palitos??
+[00:40:36] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> dame la mesa y palos tmb ocupo c me rompera este
+[00:40:38] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> vengan
+[00:40:38] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> ya no
+[00:41:09] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> che
+[00:41:28] [Server thread/INFO]: Villager Villager['Toolsmith'/369375, uuid='8e6c8a19-0653-4bef-a21d-9ee90b2688ca', l='ServerLevel[world]', x=-4355.70, y=66.97, z=3523.63, cpos=[-273, 220], tl=68588, v=true] died, message: 'Toolsmith was slain by Zombie'
+[00:41:51] [Server thread/INFO]: Villager Villager['Farmer'/369344, uuid='42bbc57a-f0f7-4e29-82a3-66aa79347c40', l='ServerLevel[world]', x=-4366.40, y=70.00, z=3524.50, cpos=[-273, 220], tl=69054, v=true] died, message: 'Farmer was slain by Zombie'
+[00:42:01] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> esperemos
+[00:42:02] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> XD
+[00:42:08] [Async Chat Thread - #184/INFO]: [Not Secure] <Elowennofake> xxd
+[00:42:21] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> ya
+[00:43:17] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> vengan al portal
+[00:43:39] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> aca le di un infarto a dieg
+[00:43:40] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> XDD
+[00:43:43] [Async Chat Thread - #184/INFO]: [Not Secure] <RipDieg> XD
+[00:43:58] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> osea bro porq manosearon toda la fortaleza
+[00:44:48] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> no sean macacos
+[00:45:00] [Async Chat Thread - #184/INFO]: [Not Secure] <mishuuu_> bro a donde vas
+[00:46:50] [Async Chat Thread - #186/INFO]: [Not Secure] <RipDieg> cuidado un ghast
+[00:46:55] [Async Chat Thread - #186/INFO]: [Not Secure] <RipDieg> despawneo
+[00:46:56] [Async Chat Thread - #186/INFO]: [Not Secure] <RipDieg> XD
+[00:46:59] [Async Chat Thread - #186/INFO]: [Not Secure] <RipDieg> ya nlo
+[00:47:18] [Async Chat Thread - #186/INFO]: [Not Secure] <RipDieg> odio este bioma xd
+[00:47:21] [Async Chat Thread - #186/INFO]: [Not Secure] <mishuuu_> x2
+[00:47:32] [Async Chat Thread - #186/INFO]: [Not Secure] <mishuuu_> q mr
+[00:50:04] [Async Chat Thread - #188/INFO]: [Not Secure] <Elowennofake> alguien tiene comida xd
+[00:50:10] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> me quedan 5r zanahorias
+[00:50:35] [Async Chat Thread - #188/INFO]: [Not Secure] <RipDieg> otra fortaleza
+[00:50:37] [Async Chat Thread - #188/INFO]: [Not Secure] <RipDieg> con razon
+[00:50:43] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> D
+[00:50:44] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> XD
+[00:50:44] [Async Chat Thread - #188/INFO]: [Not Secure] <RipDieg> XD
+[00:51:02] [Async Chat Thread - #188/INFO]: [Not Secure] <RipDieg> XD
+[00:51:02] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> WTF
+[00:51:08] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> EL GHAST TRUCO
+[00:51:17] [Async Chat Thread - #188/INFO]: [Not Secure] <Elowennofake> toma
+[00:51:57] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> ya lo veo
+[00:52:50] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> bro aca me hice una salvadota
+[00:52:51] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> una vez
+[00:53:40] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> espera a dieg
+[00:53:54] [Async Chat Thread - #188/INFO]: [Not Secure] <Elowennofake> tienes comida??
+[00:53:58] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> sepa
+[00:54:08] [Async Chat Thread - #188/INFO]: [Not Secure] <RipDieg> el diavlaso la caña
+[00:54:11] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> XD
+[00:54:35] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> mi baticuea
+[00:54:37] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> baticueva
+[00:55:04] [Server thread/INFO]: RipDieg has made the advancement [A Seedy Place]
+[00:55:20] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> hay armadura ahi
+[00:55:20] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg se dispone a robar
+[00:55:42] [Server thread/INFO]: Elowennofake issued server command: /msg RipDieg tiene una rienda?
+[00:55:45] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> miren
+[00:55:55] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> mis esclavos
+[00:56:03] [Async Chat Thread - #188/INFO]: [Not Secure] <Elowennofake> xd
+[00:56:06] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> y aca la xp
+[00:56:06] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> puedo comprar?
+[00:56:08] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> animal
+[00:56:09] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> si
+[00:56:29] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> agarre las esmeraldas
+[00:56:40] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> tiesn libros? xd
+[00:56:49] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> en lo profundoi de mi obo
+[00:56:56] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> a
+[00:57:06] [Async Chat Thread - #189/INFO]: [Not Secure] <Elowennofake> tienes piedra
+[00:57:08] [Async Chat Thread - #189/INFO]: [Not Secure] <Elowennofake> ??
+[00:57:08] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> no hay una mr
+[00:57:20] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> q ganas de un tridente
+[00:57:24] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> ei
+[00:57:27] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> deja la lanza
+[00:57:30] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> aweno
+[00:57:31] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> XD
+[00:57:45] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> we me puedo dupear unas plantillas?
+[00:57:54] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> con mis diamantes no
+[00:57:57] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> tengo 8
+[00:58:01] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> y tu tenias 5
+[00:58:01] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> XD
+[00:58:42] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> deja pongo los 3 cosos
+[00:58:48] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> 3?
+[00:58:49] [Async Chat Thread - #188/INFO]: [Not Secure] <mishuuu_> tenia 4
+[00:59:07] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> pal diavblo 36 levels
+[00:59:10] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> si pero agarre 1 pa dupear xd
+[00:59:13] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> ah
+[00:59:33] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> ahora necesito diamantes
+[00:59:35] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> ire por
+[00:59:41] [Async Chat Thread - #189/INFO]: [Not Secure] <RipDieg> hay una cueva cerca?
+[00:59:51] [Async Chat Thread - #189/INFO]: [Not Secure] <mishuuu_> sepa pero estamos arriba de una trial muy looteada
+[01:01:39] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> y el yunque?
+[01:01:58] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> de donde saco aeroimpulso
+[01:01:59] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> WTF
+[01:02:15] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> dieg
+[01:02:19] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> oe y pa q sirve densidad xd
+[01:02:20] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> lo hubieras encantado primero
+[01:02:22] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> menso
+[01:02:26] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> para hacer mas daño por bloque
+[01:02:39] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> xd
+[01:02:45] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> osea como
+[01:02:52] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> primero va densidad y luego aeroimpulso?
+[01:02:55] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> lo q dije imbecilitico
+[01:02:57] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> no porq
+[01:02:59] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> SI LE PONES
+[01:03:00] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> DENSIDAD 1
+[01:03:04] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> Y EN LA MESA SALE 4 O 5
+[01:03:15] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> PUS AHORA NO LO PUEDES CONSEGUIR CON LA MESA
+[01:03:19] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> XD
+[01:03:20] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> porq el aeroimpulso es carisimo
+[01:03:21] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> si cierto
+[01:03:28] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> pos lo desencanto
+[01:03:29] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> XD
+[01:03:30] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> la plantilla
+[01:03:33] [Async Chat Thread - #190/INFO]: [Not Secure] <RipDieg> a si toma
+[01:03:40] [Async Chat Thread - #190/INFO]: [Not Secure] <mishuuu_> bueno gastaste 1 aeroimpulso
+[01:04:47] [Async Chat Thread - #192/INFO]: [Not Secure] <RipDieg> no tenias ma aldeanos?
+[01:04:51] [Async Chat Thread - #192/INFO]: [Not Secure] <mishuuu_> no
+[01:04:51] [Async Chat Thread - #192/INFO]: [Not Secure] <RipDieg> mas*
+[01:04:53] [Async Chat Thread - #192/INFO]: [Not Secure] <RipDieg> XD
+[01:05:13] [Async Chat Thread - #192/INFO]: [Not Secure] <Elowennofake> dieg me das 1 de nether wart
+[01:05:42] [Async Chat Thread - #192/INFO]: [Not Secure] <RipDieg> we y pq no haces q procreen
+[01:05:53] [Async Chat Thread - #192/INFO]: [Not Secure] <mishuuu_> lo hare luego
+[01:06:25] [Async Chat Thread - #192/INFO]: [Not Secure] <RipDieg> pon en medio una trampilla y listo
+[01:06:26] [Async Chat Thread - #192/INFO]: [Not Secure] <Elowennofake> tienespolvora???
+[01:07:42] [Async Chat Thread - #194/INFO]: [Not Secure] <mishuuu_> EI
+[01:07:43] [Async Chat Thread - #194/INFO]: [Not Secure] <mishuuu_> MI CARNE
+[01:07:48] [Async Chat Thread - #194/INFO]: [Not Secure] <RipDieg> XD
+[01:07:58] [Async Chat Thread - #194/INFO]: [Not Secure] <mishuuu_> ire por una bastion
+[01:08:02] [Async Chat Thread - #194/INFO]: [Not Secure] <RipDieg> ok
+[01:08:28] [Server thread/INFO]: Elowennofake has made the advancement [Enchanter]
+[01:09:48] [Async Chat Thread - #196/INFO]: [Not Secure] <RipDieg> we eloweno me dejas farmear exp?
+[01:10:57] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> eloweno como c hacen las pociones de infestacion xd
+[01:11:03] [Async Chat Thread - #198/INFO]: [Not Secure] <mishuuu_> con piedra
+[01:11:08] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> mira primero netherwart
+[01:11:13] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> uju
+[01:11:16] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> osea las verrugas
+[01:11:19] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> sis
+[01:11:30] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> de ahi la stone no la cobblestone
+[01:11:34] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> ok
+[01:11:36] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> y ya?
+[01:11:41] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> ya de ahi pones polvora y ya
+[01:11:50] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> a oki
+[01:11:52] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> ok*
+[01:12:08] [Async Chat Thread - #198/INFO]: [Not Secure] <RipDieg> le di a la k y a la i a la vez XD
+[01:12:17] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> xd
+[01:12:18] [Async Chat Thread - #198/INFO]: [Not Secure] <mishuuu_> q mr
+[01:12:39] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> que tal te va en la bastion mishu
+[01:12:49] [Async Chat Thread - #198/INFO]: [Not Secure] <mishuuu_> de la mr no veo nd
+[01:12:58] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> xd
+[01:13:19] [Async Chat Thread - #198/INFO]: [Not Secure] <mishuuu_> oe si porq cuando le doy a la i es como el wayla
+[01:13:34] [Async Chat Thread - #198/INFO]: [Not Secure] <Elowennofake> ni idea
+[01:14:44] [Async Chat Thread - #200/INFO]: [Not Secure] <Elowennofake> lo sabia xd
+[01:14:51] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> q sabias
+[01:14:53] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> si es qme dio pereza
+[01:14:55] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> XD
+[01:15:01] [Async Chat Thread - #200/INFO]: [Not Secure] <Elowennofake> mira atras tuyo
+[01:15:05] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> a
+[01:15:07] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> XD
+[01:16:06] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> ire de vdd ahora XD
+[01:16:09] [Async Chat Thread - #200/INFO]: [Not Secure] <Elowennofake> xd
+[01:16:10] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> XD
+[01:16:31] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> me estas robando la exp xd
+[01:16:36] [Async Chat Thread - #200/INFO]: [Not Secure] <Elowennofake> xd
+[01:17:30] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> pueden ir a por arañas?
+[01:17:32] [Server thread/INFO]: RipDieg has made the advancement [Enchanter]
+[01:17:37] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> para hacer mas armadillos con sus ojos
+[01:17:41] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> ptmr solo fue filo 3
+[01:17:44] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> XD
+[01:18:40] [Async Chat Thread - #200/INFO]: [Not Secure] <Elowennofake> bueno yo ya me tengo que ir byees
+[01:18:42] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> a
+[01:18:44] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> byes
+[01:18:46] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> byes
+[01:18:48] [Server thread/INFO]: Elowennofake lost connection: Disconnected
+[01:18:48] [Server thread/INFO]: Elowennofake left the game
+[01:19:07] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> esq a esta hora ya c va por la escuela
+[01:19:15] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> supongo q donde vive ya es tarde xd
+[01:19:18] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> y tu cuando empiezas
+[01:19:23] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> mañana
+[01:19:23] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> XD
+[01:19:25] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> a
+[01:19:28] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> NO MAME WE
+[01:19:30] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> ME QUEDE
+[01:19:32] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> A 1 PIXEL
+[01:19:33] [Async Chat Thread - #200/INFO]: [Not Secure] <mishuuu_> bueno esq son las 7 ahi
+[01:19:34] [Async Chat Thread - #200/INFO]: [Not Secure] <RipDieg> DE LOS 30
+[01:19:39] [Async Chat Thread - #201/INFO]: [Not Secure] <mishuuu_> XD
